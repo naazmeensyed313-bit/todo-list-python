@@ -1,4 +1,4 @@
-# Python To-Do List App
+# Python To-Do List Manager
 
 This is a simple To-Do List application developed using Python.
 
