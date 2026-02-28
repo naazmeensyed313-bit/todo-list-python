@@ -25,7 +25,7 @@ This is a simple To-Do List application developed using Python.
 
 python todolist.py
 
-## Author
+## By
 Naazmeen 
 B.E Student
 Stanley College of Engineering & Technology for Women
