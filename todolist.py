@@ -72,15 +72,15 @@ tasks = load_tasks()#main program
 
 while True:
     #tasks menu will be displayed 
-    print("\n===== TO DO LIST MENU📋 =====")
+    print("\n===== TO DO LIST MENU =====")
 
-    print("1. Add Task➕")
-    print("2. View Tasks👀")
-    print("3. Delete Task🗑️")
-    print("4. Mark Task Done✅")
-    print("5. Exit👋")
+    print("1. Add Task")
+    print("2. View Tasks")
+    print("3. Delete Task")
+    print("4. Mark Task Done")
+    print("5. Exit")
 
-    choice = input("Enter your option from the menu : ")#user selects an option from menu and perfoms the operation 
+    choice = input("Enter choice: ")#user selects an option from menu and perfoms the operation 
 
     if choice == "1":
         add_task(tasks)
@@ -95,8 +95,8 @@ while True:
         mark_done(tasks)
 
     elif choice == "5":
-        print("Goodbye!👋")
+        print("Goodbye!")
         break
 
     else:
-        print("Invalid choice❌") 
+        print("Invalid choice")
